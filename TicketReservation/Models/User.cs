@@ -14,7 +14,10 @@ namespace TicketReservation.Models
         public string Password { get; set; }
         [MaxLength(11)]
         public string Phone { get; set; }
+        [MaxLength(60)]
         public string Email { get; set; }
+        [MaxLength (13)]
+        public string Role {  get; set; }
 
         public ICollection<Ticket> tickets { get; set; }
 

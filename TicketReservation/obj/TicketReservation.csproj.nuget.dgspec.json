@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs\\ITI_Final_project\\TicketReservation\\TicketReservation.csproj": {}
+    "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj": {}
   },
   "projects": {
-    "D:\\vs\\ITI_Final_project\\TicketReservation\\TicketReservation.csproj": {
+    "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs\\ITI_Final_project\\TicketReservation\\TicketReservation.csproj",
+        "projectUniqueName": "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
         "projectName": "TicketReservation",
-        "projectPath": "D:\\vs\\ITI_Final_project\\TicketReservation\\TicketReservation.csproj",
+        "projectPath": "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
         "packagesPath": "C:\\Users\\GEMY\\.nuget\\packages\\",
-        "outputPath": "D:\\vs\\ITI_Final_project\\TicketReservation\\obj\\",
+        "outputPath": "D:\\github\\TicketReservation\\TicketReservation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GEMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
