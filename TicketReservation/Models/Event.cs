@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TicketReservation.Models
 {
@@ -18,7 +17,7 @@ namespace TicketReservation.Models
         public string Info { get; set; }
         [MaxLength(1000)]
         public string Data { get; set; }
-
+        public string? ImageName { get; set; }
     public ICollection<Ticket> tickets { get; set; }
 
     }

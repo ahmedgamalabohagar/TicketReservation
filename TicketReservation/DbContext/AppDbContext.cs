@@ -17,7 +17,8 @@ namespace TicketReservation
         //make all relations has relation action restrict
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e=>e.GetForeignKeys()))
+            modelBuilder.Entity<Event>().Property(e => e.Price).HasColumnType("decimal(18, 2)");
+            foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
             {
                 relationship.DeleteBehavior = DeleteBehavior.Restrict;
             }
