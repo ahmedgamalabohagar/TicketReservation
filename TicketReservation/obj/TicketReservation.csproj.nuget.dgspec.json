@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\TicketReservation\\TicketReservation\\TicketReservation.csproj": {}
+    "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\TicketReservation\\TicketReservation\\TicketReservation.csproj": {
+    "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
+        "projectUniqueName": "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
         "projectName": "TicketReservation",
-        "projectPath": "D:\\Projects\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
-        "packagesPath": "C:\\Users\\Hazem Khalifa\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\TicketReservation\\TicketReservation\\obj\\",
+        "projectPath": "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
+        "packagesPath": "C:\\Users\\GEMY\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\TicketReservation\\TicketReservation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hazem Khalifa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
