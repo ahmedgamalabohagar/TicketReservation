@@ -4105,19 +4105,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GEMY\\.nuget\\packages\\": {}
+    "C:\\Users\\Hazem Khalifa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
+      "projectUniqueName": "D:\\Projects\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
       "projectName": "TicketReservation",
-      "projectPath": "D:\\github\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
-      "packagesPath": "C:\\Users\\GEMY\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\TicketReservation\\TicketReservation\\obj\\",
+      "projectPath": "D:\\Projects\\TicketReservation\\TicketReservation\\TicketReservation.csproj",
+      "packagesPath": "C:\\Users\\Hazem Khalifa\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\TicketReservation\\TicketReservation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GEMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hazem Khalifa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4179,7 +4179,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
