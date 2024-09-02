@@ -20,7 +20,7 @@ namespace TicketReservation.Controllers
             return View(_appDbContext.Events.Select(e => e));
         }
 
-        public IActionResult ShowEvent(int id) => View(_appDbContext.Events.Where(e => e.Id == id));
+        public IActionResult ShowEvent(int id) => View(_appDbContext.Events.Where(e => e.Id == id).FirstOrDefault());
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

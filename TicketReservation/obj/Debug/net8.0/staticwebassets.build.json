@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WWH4RnbSIPPvKRvampqFV3Tu3N3B4YLDL1POK+AaqfY=",
+  "Hash": "eEyKWDv0IjThhQ/m2DH6H9JQxl2cUcpzdYMyUZB0HEo=",
   "Source": "TicketReservation",
   "BasePath": "_content/TicketReservation",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\images\\blog-1.jpg",
+      "SourceId": "TicketReservation",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\",
+      "BasePath": "_content/TicketReservation",
+      "RelativePath": "images/blog-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\blog-1.jpg"
     },
     {
       "Identity": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\js\\site.js",
