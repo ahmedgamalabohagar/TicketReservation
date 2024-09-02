@@ -20,10 +20,7 @@ namespace TicketReservation.Controllers
             return View(_appDbContext.Events.Select(e => e));
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        public IActionResult ShowEvent(int id) => View(_appDbContext.Events.Where(e => e.Id == id));
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
