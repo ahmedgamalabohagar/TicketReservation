@@ -1,4 +1,6 @@
+using DAL.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace TicketReservation
 {
@@ -13,6 +15,7 @@ namespace TicketReservation
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
                 builder.Configuration.GetConnectionString("MyConnection")
                 ));
+            builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
             var app = builder.Build();
 
