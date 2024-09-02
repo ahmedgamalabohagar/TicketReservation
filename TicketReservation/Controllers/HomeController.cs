@@ -6,16 +6,18 @@ namespace TicketReservation.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly AppDbContext _appDbContext;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, AppDbContext appDbContext)
         {
             _logger = logger;
+            _appDbContext = appDbContext;
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(_appDbContext.Events.Select(e => e));
         }
 
         public IActionResult Privacy()
