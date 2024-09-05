@@ -1,0 +1,13 @@
+D:\Projects\TicketReservation\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\Projects\TicketReservation\DAL\bin\Debug\net8.0\DAL.dll
+D:\Projects\TicketReservation\DAL\bin\Debug\net8.0\DAL.pdb
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\DAL.dll
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\DAL.pdb
+D:\Projects\TicketReservation\DAL\obj\Debug\net8.0\ref\DAL.dll

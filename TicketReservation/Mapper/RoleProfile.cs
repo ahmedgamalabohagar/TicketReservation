@@ -8,7 +8,7 @@ namespace TicketReservation.Mapper
     {
         public RoleProfile()
         {
-            CreateMap<RoleVM, IdentityRole>();
+            CreateMap<IdentityRole, RoleVM>();
         }
     }
 }

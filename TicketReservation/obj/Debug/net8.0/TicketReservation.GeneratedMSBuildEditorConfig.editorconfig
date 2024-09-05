@@ -26,12 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Projects\TicketReservation\TicketReservation
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projects/TicketReservation/TicketReservation/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/Projects/TicketReservation/TicketReservation/Views/Home/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/TicketReservation/TicketReservation/Views/Home/ShowEvent.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93RXZlbnQuY3NodG1s
+[D:/Projects/TicketReservation/TicketReservation/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/TicketReservation/TicketReservation/Views/Shared/Error.cshtml]

@@ -6,7 +6,7 @@ namespace DAL.Entities
     {
         public bool Valid { get; set; }
         [ForeignKey("user")]
-        public int UserID { get; set; }
+        public string UserID { get; set; }
         public AppUser user { get; set; }
         [ForeignKey("event")]
         public int EventID { get; set; }

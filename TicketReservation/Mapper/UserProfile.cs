@@ -8,7 +8,7 @@ namespace TicketReservation.Mapper
     {
         public UserProfile()
         {
-            CreateMap<UserVM, AppUser>();
+            CreateMap<AppUser, UserVM>();
         }
     }
 }

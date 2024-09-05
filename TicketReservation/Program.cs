@@ -1,4 +1,6 @@
 using DAL.Context;
+using DAL.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -16,6 +18,9 @@ namespace TicketReservation
                 builder.Configuration.GetConnectionString("MyConnection")
                 ));
             builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            builder.Services.AddIdentity<AppUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
 
             var app = builder.Build();
 

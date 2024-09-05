@@ -6,9 +6,9 @@ namespace TicketReservation.Mapper
 {
     public class TicketProfile : Profile
     {
-        protected TicketProfile()
+        public TicketProfile()
         {
-            CreateMap<TicketVM, Ticket>();
+            CreateMap<Ticket, TicketVM>();
         }
     }
 }

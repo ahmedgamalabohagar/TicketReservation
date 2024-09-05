@@ -1,0 +1,16 @@
+D:\Projects\TicketReservation\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\Projects\TicketReservation\BLL\bin\Debug\net8.0\BLL.dll
+D:\Projects\TicketReservation\BLL\bin\Debug\net8.0\BLL.pdb
+D:\Projects\TicketReservation\BLL\bin\Debug\net8.0\DAL.dll
+D:\Projects\TicketReservation\BLL\bin\Debug\net8.0\DAL.pdb
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\BLL.dll
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\BLL.pdb
+D:\Projects\TicketReservation\BLL\obj\Debug\net8.0\ref\BLL.dll
