@@ -4,14 +4,15 @@ namespace TicketReservation.Models
 {
     public class UserVM
     {
-
-        public int Id { get; set; }
-        [MaxLength(20)]
-        public string FirstName { get; set; }
-        [MaxLength(20)]
-        public string LastName { get; set; }
+        public string UserName { get; set; }
+        public string Email { get; set; }
         public string Phone { get; set; }
-        public ICollection<TicketVM> tickets { get; set; }
+        [DataType(DataType.Password), Required(ErrorMessage = "Password Is Required")]
+        public string Password { get; set; }
+        [DataType(DataType.Password), Required(ErrorMessage = "Confirm Password Is Required")]
+        [Compare("Password", ErrorMessage = "Confirm Pasword Dosen't Match Password")]
+        public string ConfirmPassword { get; set; }
+        public bool Agree { get; set; }
 
     }
 }

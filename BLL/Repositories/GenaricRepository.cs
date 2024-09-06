@@ -20,7 +20,7 @@ namespace BLL.Repositories
 
         public IEnumerable<T> GetAll() => _dbContext.Set<T>().Select(x => x).ToList();
 
-        public T GetbyId(int id) => _dbContext.Set<T>().Where(x => x.Id == id).Select(x => x).FirstOrDefault();
+        public T GetbyId(int id) => _dbContext.Set<T>().Find(id);
 
         public void Update(T entity) => _dbContext.Set<T>().Update(entity);
     }

@@ -1,3 +1,4 @@
+using BLL.Repositories;
 using DAL.Context;
 using DAL.Entities;
 using Microsoft.AspNetCore.Identity;
@@ -17,10 +18,16 @@ namespace TicketReservation
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
                 builder.Configuration.GetConnectionString("MyConnection")
                 ));
+            builder.Services.AddTransient<EventRepository>();
+            builder.Services.AddTransient<TicketRepository>();
             builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
-            builder.Services.AddIdentity<AppUser, IdentityRole>()
-                .AddEntityFrameworkStores<AppDbContext>()
-                .AddDefaultTokenProviders();
+            builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+            })
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
 
             var app = builder.Build();
 
@@ -37,11 +44,12 @@ namespace TicketReservation
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=User}/{action=Login}/{id?}");
 
             app.Run();
         }

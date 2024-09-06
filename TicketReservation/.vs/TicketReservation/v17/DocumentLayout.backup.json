@@ -3,16 +3,11 @@
   "WorkspaceRootPath": "D:\\Projects\\TicketReservation\\TicketReservation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2982324-CA24-4B63-B731-02D323915C78}|TicketReservation.csproj|d:\\projects\\ticketreservation\\ticketreservation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2982324-CA24-4B63-B731-02D323915C78}|TicketReservation.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE96C326-76D3-4F1B-BC1B-F3AB898150EE}|..\\DAL\\DAL.csproj|d:\\projects\\ticketreservation\\dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2982324-CA24-4B63-B731-02D323915C78}|TicketReservation.csproj|d:\\projects\\ticketreservation\\ticketreservation\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D2982324-CA24-4B63-B731-02D323915C78}|TicketReservation.csproj|solutionrelative:views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2982324-CA24-4B63-B731-02D323915C78}|TicketReservation.csproj|d:\\projects\\ticketreservation\\ticketreservation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2982324-CA24-4B63-B731-02D323915C78}|TicketReservation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2982324-CA24-4B63-B731-02D323915C78}|TicketReservation.csproj|d:\\projects\\ticketreservation\\ticketreservation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2982324-CA24-4B63-B731-02D323915C78}|TicketReservation.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,41 +49,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Booking.cshtml",
-              "DocumentMoniker": "D:\\Projects\\TicketReservation\\TicketReservation\\Views\\Home\\Booking.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Booking.cshtml",
-              "ToolTip": "D:\\Projects\\TicketReservation\\TicketReservation\\Views\\Home\\Booking.cshtml",
-              "RelativeToolTip": "Views\\Home\\Booking.cshtml",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAGYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T11:25:59.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Projects\\TicketReservation\\TicketReservation\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Projects\\TicketReservation\\TicketReservation\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "Controllers\\HomeController.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAiwC0AAAAoAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\TicketReservation\\DAL\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\Projects\\TicketReservation\\DAL\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "..\\DAL\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T11:06:49.944Z",
+              "WhenOpened": "2024-09-07T07:35:04.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\TicketReservation\\TicketReservation\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\TicketReservation\\TicketReservation\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Projects\\TicketReservation\\TicketReservation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Projects\\TicketReservation\\TicketReservation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T11:01:19.484Z",
+              "WhenOpened": "2024-09-07T07:30:33.443Z",
               "EditorCaption": ""
             }
           ]
