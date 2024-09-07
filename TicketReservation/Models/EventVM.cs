@@ -17,6 +17,7 @@ namespace TicketReservation.Models
         [MaxLength(1000)]
         public string Data { get; set; }
         public string? ImageName { get; set; }
+        public IFormFile? Image { get; set; }
 
     }
 }

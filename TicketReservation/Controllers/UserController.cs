@@ -1,4 +1,5 @@
-﻿using DAL.Entities;
+﻿using AutoMapper;
+using DAL.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TicketReservation.Models;
@@ -9,17 +10,20 @@ namespace TicketReservation.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly IMapper _mapper;
 
-        public UserController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        public UserController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IMapper mapper)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _mapper = mapper;
         }
 
         // GET: UserController
         public ActionResult Index()
         {
-            return View();
+            List<UserVM> mappUsers = _mapper.Map<List<UserVM>>(_userManager.Users.ToList());
+            return View(mappUsers);
         }
 
         public ActionResult Login()
@@ -72,35 +76,16 @@ namespace TicketReservation.Controllers
         }
 
         // GET: UserController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(string id)
         {
-            return View();
-        }
-
-        // GET: UserController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: UserController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            UserVM mappUsaer = _mapper.Map<UserVM>(await _userManager.FindByIdAsync(id));
+            return View(mappUsaer);
         }
 
         // GET: UserController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(string id)
         {
+            UserVM mappUser = _mapper.Map<UserVM>(_userManager.FindByIdAsync(id));
             return View();
         }
 

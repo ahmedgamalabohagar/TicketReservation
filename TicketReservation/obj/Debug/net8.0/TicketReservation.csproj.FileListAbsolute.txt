@@ -536,3 +536,5 @@ D:\Projects\TicketReservation\TicketReservation\obj\Debug\net8.0\refint\TicketRe
 D:\Projects\TicketReservation\TicketReservation\obj\Debug\net8.0\TicketReservation.pdb
 D:\Projects\TicketReservation\TicketReservation\obj\Debug\net8.0\TicketReservation.genruntimeconfig.cache
 D:\Projects\TicketReservation\TicketReservation\obj\Debug\net8.0\ref\TicketReservation.dll
+D:\Projects\TicketReservation\TicketReservation\bin\Debug\net8.0\bundleconfig.json
+D:\Projects\TicketReservation\TicketReservation\obj\Debug\net8.0\scopedcss\Views\Shared\_DashLayout .cshtml.rz.scp.css

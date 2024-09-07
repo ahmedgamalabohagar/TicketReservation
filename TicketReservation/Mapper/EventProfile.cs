@@ -8,7 +8,7 @@ namespace TicketReservation.Mapper
     {
         public EventProfile()
         {
-            CreateMap<Event, EventVM>();
+            CreateMap<Event, EventVM>().ReverseMap();
         }
     }
 }
