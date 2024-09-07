@@ -21,7 +21,7 @@ namespace TicketReservation.Controllers
         // GET: EventController
         public ActionResult Index()
         {
-            return View(_mapper.Map<IEnumerable<EventVM>>(_eventRepository.GetAll()));
+            return View();
         }
 
         // GET: EventController/Details/5
@@ -30,11 +30,6 @@ namespace TicketReservation.Controllers
             return View(_mapper.Map<EventVM>(_eventRepository.GetbyId(id)));
         }
 
-        // GET: EventController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
 
         // POST: EventController/Create
         [HttpPost]
@@ -52,7 +47,7 @@ namespace TicketReservation.Controllers
             {
                 ModelState.AddModelError("", ex.Message);
             }
-            return View(eventVM);
+            return View(nameof(Index), eventVM);
         }
 
         // GET: EventController/Edit/5

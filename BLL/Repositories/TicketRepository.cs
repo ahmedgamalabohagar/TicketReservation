@@ -23,6 +23,7 @@ namespace BLL.Repositories
                 t.user = _userManager.FindByIdAsync(UserId).Result;
             }
             _dbContext.UpdateRange(tic);
+            _dbContext.SaveChanges();
         }
     }
 }

@@ -5,16 +5,24 @@
       "PackagePath": "staticwebassets\\TicketReservation.bundle.scp.css"
     },
     {
+      "Id": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\Files\\Images\\232e265f-5618-49a4-bc12-ab160a0ae10f-download.jpeg",
+      "PackagePath": "staticwebassets\\Files\\Images\\232e265f-5618-49a4-bc12-ab160a0ae10f-download.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\Files\\Images\\ac0a86a4-7dfe-4a22-9109-f742e5051a1c-download.jpeg",
+      "PackagePath": "staticwebassets\\Files\\Images\\ac0a86a4-7dfe-4a22-9109-f742e5051a1c-download.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\Files\\Images\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Files\\Images\\blog-1.jpg"
+    },
+    {
       "Id": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
-      "Id": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\images\\blog-1.jpg",
-      "PackagePath": "staticwebassets\\images\\blog-1.jpg"
     },
     {
       "Id": "D:\\Projects\\TicketReservation\\TicketReservation\\wwwroot\\js\\site.js",

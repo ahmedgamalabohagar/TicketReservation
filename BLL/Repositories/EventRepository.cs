@@ -22,6 +22,7 @@ namespace BLL.Repositories
                     Event = e
                 });
             }
+            _dbContext.SaveChanges();
         }
     }
 }
